@@ -1,0 +1,59 @@
+#hero {
+  /* Image by Сергей from Pixabay */
+  background: url(../img/openings/hero.jpg) center / cover no-repeat;
+  position: relative;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#hero h1,
+#hero p {
+  position: relative;
+}
+
+.half-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.half-container .img-half img {
+  width: 60%;
+  margin-right: auto;
+  display: block;
+}
+
+.half-container-reversed .img-half img {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.half-container .txt-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.half-container-reversed .txt-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#openings > article + article {
+  padding-top: 0;
+}

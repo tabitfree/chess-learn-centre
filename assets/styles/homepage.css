@@ -1,0 +1,13 @@
+#hero {
+  background: url(../img/homepage/hero.jpg) center / cover no-repeat;
+}
+
+#usage-container > p {
+  max-width: 490px;
+}
+
+.cards-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
