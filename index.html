@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Jan Nemecek">
-    <meta name="description" content="Basic chess openings that you can learn. For free!">
-    <meta name="keywords" content="chess, chess openings, opening, learn, learning, for free, chess for free">
 
     <title>Home | CLC</title>
+    <meta name="description" content="Basic chess openings that you can learn. For free!">
+    <meta name="keywords" content="chess, chess openings, opening, learn, learning, for free, chess for free">
+    <meta name="author" content="Jan Nemecek">
+
+    <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="./assets/styles/globals.css">
     <link rel="stylesheet" href="./assets/styles/homepage.css">
@@ -20,8 +22,9 @@
         <nav>
             <ul>
                 <li><a class="active" href="./index.html">Home</a></li>
-                <li><a href="./pages/openings.html">Openings</a></li>
-                <li><a href="./pages/opening-e4.html">E4 Opening</a></li>
+                <li><a href="./openings.html">Openings</a></li>
+                <li><a href="./openings/e4.html">E4 Opening</a></li>
+                <li><a href="./openings/e4/sicilian-defense.html">Sicilian defense</a></li>
             </ul>
         </nav>
     </header>
@@ -55,6 +58,32 @@
                 </div>
             </article>
         </section>
+
+        <section id="contact-us">
+            <article class="container">
+                <form action="get">
+                    <label for="contact-name">
+                        <span>Full name <span class="asterisk">*</span></span>
+                        <input class="custom-input" name="name" id="contact-name" type="text" required>
+                    </label>
+                    <label for="contact-email">
+                        <span>E-mail <span class="asterisk">*</span></span>
+                        <input class="custom-input" name="email" id="contact-email" type="email" required>
+                    </label>
+                    <label for="contact-tel">
+                        <span>Phone number</span>
+                        <input class="custom-input" name="phone" id="contact-tel" type="email">
+                    </label>
+                    <label for="contact-msg">
+                        <span>Message <span class="asterisk">*</span></span>
+                        <textarea class="custom-input" name="message" id="contact-msg" cols="40" rows="10" required></textarea>
+                    </label>
+                    <button class="btn" type="submit">
+                        Send
+                    </button>
+                </form>
+            </article>
+        </section>
     </main>
 
     <footer class="main-footer">
@@ -68,6 +97,14 @@
             </div>
 
             <!-- second col -->
+            <nav>
+                <ul>
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./openings.html">Openings</a></li>
+                    <li><a href="./openings/e4.html">E4 Opening</a></li>
+                    <li><a href="./openings/e4/sicilian-defense.html">Sicilian defense</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 

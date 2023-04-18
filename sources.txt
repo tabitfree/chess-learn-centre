@@ -1,0 +1,3 @@
+openings/e4.html
+    kasparov image: https://www.kasparov.com/timeline-event/deep-blue/
+    hero image: https://pixabay.com/cs/photos/%C5%A1achy-figurky-b%C3%ADl%C3%A1-%C4%8Dern%C3%A1-ruka-2776219/

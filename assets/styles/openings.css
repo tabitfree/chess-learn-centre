@@ -33,6 +33,19 @@
   display: block;
 }
 
+@media (max-width: 1200px) {
+  .half-container .img-half img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .half-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .half-container-reversed .img-half img {
   margin-right: 0;
   margin-left: auto;
@@ -56,4 +69,23 @@
 
 #openings > article + article {
   padding-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tbody tr {
+}
+
+table tr th {
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 10px 10px 0;
+}
+
+table tr td {
+  font-size: 20px;
+  padding: 5px 5px 5px 0;
 }
